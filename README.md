@@ -51,11 +51,6 @@ This project builds on that LSTM-based pipeline and compares fusion strategies o
 - tqdm, pyyaml, wandb (optional)
 - CUDA 11.x (for GPU training)
 
-Install dependencies via:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -68,16 +63,10 @@ git clone https://github.com/biplabpratimkhanra/CS598-DL4HC.git
 cd CS598-DL4HC/CS598MedFuse
 ```
 
-### 2. Setup Environment
-
-```bash
-python -m venv .venv
-source .venv/bin/activate        # macOS/Linux
-.venv\Scripts\activate         # Windows
-pip install -r requirements.txt
+tall -r requirements.txt
 ```
 
-### 3. Data Access & Preparation
+### 2. Data Access & Preparation
 
 1. **MIMIC-IV** clinical CSVs & **MIMIC-CXR** images require PhysioNet credentialing.
 2. Place extracted CSV files in `data/mimiciv/` and DICOM/JPEG images in `data/mimiccxr/`.
@@ -89,7 +78,7 @@ pip install -r requirements.txt
    python scripts/preprocess_images.py      --input_dir data/mimiccxr      --output_dir processed/images      --format jpg
    ```
 
-### 4. Running Experiments
+### 3. Running Experiments
 
 Train the LSTM-based MedFuse model:
 
