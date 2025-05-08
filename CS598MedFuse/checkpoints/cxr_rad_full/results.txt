@@ -1,0 +1,166 @@
+Atelectasis                                                                                & 0.499(0.510, 0.489) & 0.222 (0.231, 0.213) Cardiomegaly                                                                               & 0.548(0.559, 0.538) & 0.271 (0.282, 0.261) Consolidation                                                                              & 0.490(0.510, 0.470) & 0.051 (0.056, 0.047) Edema                                                                                      & 0.482(0.493, 0.469) & 0.149 (0.158, 0.142) Enlarged Cardiomediastinum                                                                 & 0.462(0.489, 0.437) & 0.034 (0.042, 0.030) Fracture                                                                                   & 0.521(0.561, 0.483) & 0.017 (0.020, 0.014) Lung Lesion                                                                                & 0.445(0.475, 0.417) & 0.022 (0.025, 0.019) Lung Opacity                                                                               & 0.504(0.516, 0.494) & 0.269 (0.280, 0.259) No Finding                                                                                 & 0.534(0.545, 0.523) & 0.270 (0.282, 0.260) Pleural Effusion                                                                           & 0.499(0.508, 0.488) & 0.288 (0.299, 0.279) Pleural Other                                                                              & 0.489(0.530, 0.448) & 0.013 (0.017, 0.011) Pneumonia                                                                                  & 0.503(0.521, 0.485) & 0.082 (0.090, 0.076) Pneumothorax                                                                               & 0.445(0.466, 0.425) & 0.043 (0.047, 0.039) Support Devices                                                                            & 0.467(0.476, 0.457) & 0.312 (0.321, 0.303) 
+
+
+val  1   best mean auc :0.492 mean auprc 0.146 
+
+
+                    CI AUROC (0.473, 0.511) CI AUPRC (0.140, 0.154) 
+
+
+                     AUROC accute 0.492 mixed 0.492 chronic 0.492
+
+
+                     AUROC accute CI (0.473, 0.511) mixed (0.473 , 0.511) chronic (0.473, 0.511)
+
+
+                     AUPRC accute  0.146 mixed 0.146 chronic 0.146 
+
+
+                     AUPRC accute CI  (0.140, 0.154) mixed (0.140,  0.154) chronic (0.140, 0.154) 
+
+
+                    Atelectasis                                                                                & 0.765(0.773, 0.756) & 0.443 (0.462, 0.428) Cardiomegaly                                                                               & 0.751(0.759, 0.743) & 0.462 (0.479, 0.446) Consolidation                                                                              & 0.767(0.781, 0.753) & 0.150 (0.170, 0.134) Edema                                                                                      & 0.835(0.843, 0.827) & 0.459 (0.483, 0.438) Enlarged Cardiomediastinum                                                                 & 0.705(0.726, 0.682) & 0.080 (0.095, 0.069) Fracture                                                                                   & 0.647(0.682, 0.610) & 0.028 (0.043, 0.023) Lung Lesion                                                                                & 0.723(0.747, 0.698) & 0.074 (0.098, 0.059) Lung Opacity                                                                               & 0.707(0.715, 0.697) & 0.452 (0.468, 0.436) No Finding                                                                                 & 0.825(0.832, 0.817) & 0.643 (0.659, 0.627) Pleural Effusion                                                                           & 0.871(0.877, 0.865) & 0.721 (0.735, 0.707) Pleural Other                                                                              & 0.727(0.759, 0.694) & 0.038 (0.053, 0.029) Pneumonia                                                                                  & 0.662(0.677, 0.647) & 0.159 (0.179, 0.144) Pneumothorax                                                                               & 0.790(0.805, 0.773) & 0.208 (0.236, 0.183) Support Devices                                                                            & 0.856(0.862, 0.850) & 0.738 (0.752, 0.724) 
+
+
+val  2   best mean auc :0.759 mean auprc 0.333 
+
+
+                    CI AUROC (0.744, 0.774) CI AUPRC (0.318, 0.351) 
+
+
+                     AUROC accute 0.759 mixed 0.759 chronic 0.759
+
+
+                     AUROC accute CI (0.744, 0.774) mixed (0.744 , 0.774) chronic (0.744, 0.774)
+
+
+                     AUPRC accute  0.333 mixed 0.333 chronic 0.333 
+
+
+                     AUPRC accute CI  (0.318, 0.351) mixed (0.318,  0.351) chronic (0.318, 0.351) 
+
+
+                    Atelectasis                                                                                & 0.768(0.776, 0.759) & 0.450 (0.468, 0.433) Cardiomegaly                                                                               & 0.747(0.756, 0.739) & 0.467 (0.484, 0.451) Consolidation                                                                              & 0.773(0.787, 0.757) & 0.147 (0.165, 0.131) Edema                                                                                      & 0.838(0.846, 0.830) & 0.473 (0.497, 0.454) Enlarged Cardiomediastinum                                                                 & 0.708(0.730, 0.687) & 0.083 (0.101, 0.071) Fracture                                                                                   & 0.613(0.651, 0.576) & 0.023 (0.029, 0.019) Lung Lesion                                                                                & 0.726(0.750, 0.701) & 0.067 (0.085, 0.056) Lung Opacity                                                                               & 0.711(0.720, 0.702) & 0.459 (0.476, 0.444) No Finding                                                                                 & 0.828(0.836, 0.821) & 0.652 (0.668, 0.637) Pleural Effusion                                                                           & 0.873(0.879, 0.867) & 0.725 (0.740, 0.711) Pleural Other                                                                              & 0.728(0.758, 0.695) & 0.039 (0.057, 0.030) Pneumonia                                                                                  & 0.677(0.693, 0.662) & 0.164 (0.182, 0.149) Pneumothorax                                                                               & 0.821(0.836, 0.806) & 0.268 (0.303, 0.237) Support Devices                                                                            & 0.862(0.868, 0.855) & 0.747 (0.760, 0.733) 
+
+
+val  3   best mean auc :0.762 mean auprc 0.340 
+
+
+                    CI AUROC (0.747, 0.778) CI AUPRC (0.325, 0.358) 
+
+
+                     AUROC accute 0.762 mixed 0.762 chronic 0.762
+
+
+                     AUROC accute CI (0.747, 0.778) mixed (0.747 , 0.778) chronic (0.747, 0.778)
+
+
+                     AUPRC accute  0.340 mixed 0.340 chronic 0.340 
+
+
+                     AUPRC accute CI  (0.325, 0.358) mixed (0.325,  0.358) chronic (0.325, 0.358) 
+
+
+                    Atelectasis                                                                                & 0.770(0.779, 0.762) & 0.449 (0.467, 0.433) Cardiomegaly                                                                               & 0.754(0.762, 0.746) & 0.472 (0.489, 0.454) Consolidation                                                                              & 0.779(0.793, 0.766) & 0.152 (0.170, 0.137) Edema                                                                                      & 0.840(0.848, 0.832) & 0.475 (0.497, 0.455) Enlarged Cardiomediastinum                                                                 & 0.719(0.740, 0.698) & 0.088 (0.104, 0.075) Fracture                                                                                   & 0.661(0.692, 0.626) & 0.028 (0.035, 0.023) Lung Lesion                                                                                & 0.753(0.777, 0.727) & 0.102 (0.133, 0.080) Lung Opacity                                                                               & 0.717(0.725, 0.708) & 0.464 (0.481, 0.448) No Finding                                                                                 & 0.829(0.837, 0.821) & 0.655 (0.672, 0.640) Pleural Effusion                                                                           & 0.872(0.878, 0.867) & 0.726 (0.741, 0.713) Pleural Other                                                                              & 0.761(0.790, 0.727) & 0.045 (0.064, 0.034) Pneumonia                                                                                  & 0.682(0.697, 0.665) & 0.172 (0.190, 0.156) Pneumothorax                                                                               & 0.823(0.839, 0.807) & 0.280 (0.316, 0.248) Support Devices                                                                            & 0.866(0.872, 0.860) & 0.747 (0.761, 0.733) 
+
+
+val  4   best mean auc :0.773 mean auprc 0.347 
+
+
+                    CI AUROC (0.758, 0.788) CI AUPRC (0.331, 0.366) 
+
+
+                     AUROC accute 0.773 mixed 0.773 chronic 0.773
+
+
+                     AUROC accute CI (0.758, 0.788) mixed (0.758 , 0.788) chronic (0.758, 0.788)
+
+
+                     AUPRC accute  0.347 mixed 0.347 chronic 0.347 
+
+
+                     AUPRC accute CI  (0.331, 0.366) mixed (0.331,  0.366) chronic (0.331, 0.366) 
+
+
+                    
+
+
+val  5   mean auc :0.770883 mean auprc 0.346033
+
+
+ Atelectasis                                                                                & 0.776(0.784, 0.768) & 0.457 (0.474, 0.441) Cardiomegaly                                                                               & 0.764(0.772, 0.757) & 0.483 (0.501, 0.467) Consolidation                                                                              & 0.782(0.795, 0.767) & 0.156 (0.176, 0.140) Edema                                                                                      & 0.841(0.848, 0.833) & 0.484 (0.506, 0.464) Enlarged Cardiomediastinum                                                                 & 0.705(0.725, 0.682) & 0.083 (0.099, 0.070) Fracture                                                                                   & 0.661(0.693, 0.625) & 0.028 (0.036, 0.023) Lung Lesion                                                                                & 0.741(0.766, 0.718) & 0.082 (0.107, 0.066) Lung Opacity                                                                               & 0.723(0.731, 0.714) & 0.467 (0.483, 0.452) No Finding                                                                                 & 0.835(0.842, 0.828) & 0.671 (0.686, 0.655) Pleural Effusion                                                                           & 0.882(0.887, 0.876) & 0.741 (0.755, 0.727) Pleural Other                                                                              & 0.779(0.806, 0.753) & 0.051 (0.076, 0.038) Pneumonia                                                                                  & 0.694(0.709, 0.677) & 0.173 (0.192, 0.158) Pneumothorax                                                                               & 0.834(0.849, 0.819) & 0.322 (0.361, 0.289) Support Devices                                                                            & 0.873(0.878, 0.867) & 0.758 (0.771, 0.746) 
+
+
+val  6   best mean auc :0.778 mean auprc 0.354 
+
+
+                    CI AUROC (0.763, 0.792) CI AUPRC (0.338, 0.373) 
+
+
+                     AUROC accute 0.778 mixed 0.778 chronic 0.778
+
+
+                     AUROC accute CI (0.763, 0.792) mixed (0.763 , 0.792) chronic (0.763, 0.792)
+
+
+                     AUPRC accute  0.354 mixed 0.354 chronic 0.354 
+
+
+                     AUPRC accute CI  (0.338, 0.373) mixed (0.338,  0.373) chronic (0.338, 0.373) 
+
+
+                    
+
+
+val  7   mean auc :0.773234 mean auprc 0.352588
+
+
+ 
+
+
+val  8   mean auc :0.775962 mean auprc 0.353807
+
+
+ Atelectasis                                                                                & 0.774(0.783, 0.766) & 0.458 (0.477, 0.440) Cardiomegaly                                                                               & 0.768(0.777, 0.761) & 0.490 (0.507, 0.475) Consolidation                                                                              & 0.781(0.795, 0.767) & 0.153 (0.172, 0.137) Edema                                                                                      & 0.837(0.845, 0.829) & 0.476 (0.499, 0.456) Enlarged Cardiomediastinum                                                                 & 0.716(0.736, 0.694) & 0.087 (0.103, 0.075) Fracture                                                                                   & 0.667(0.701, 0.632) & 0.029 (0.036, 0.024) Lung Lesion                                                                                & 0.735(0.758, 0.710) & 0.086 (0.110, 0.069) Lung Opacity                                                                               & 0.723(0.732, 0.715) & 0.466 (0.482, 0.452) No Finding                                                                                 & 0.834(0.842, 0.827) & 0.667 (0.684, 0.653) Pleural Effusion                                                                           & 0.881(0.887, 0.876) & 0.740 (0.754, 0.727) Pleural Other                                                                              & 0.777(0.807, 0.745) & 0.053 (0.076, 0.040) Pneumonia                                                                                  & 0.687(0.702, 0.673) & 0.175 (0.195, 0.159) Pneumothorax                                                                               & 0.840(0.854, 0.825) & 0.315 (0.354, 0.285) Support Devices                                                                            & 0.876(0.881, 0.870) & 0.759 (0.773, 0.745) 
+
+
+val  9   best mean auc :0.778 mean auprc 0.354 
+
+
+                    CI AUROC (0.763, 0.793) CI AUPRC (0.338, 0.373) 
+
+
+                     AUROC accute 0.778 mixed 0.778 chronic 0.778
+
+
+                     AUROC accute CI (0.763, 0.793) mixed (0.763 , 0.793) chronic (0.763, 0.793)
+
+
+                     AUPRC accute  0.354 mixed 0.354 chronic 0.354 
+
+
+                     AUPRC accute CI  (0.338, 0.373) mixed (0.338,  0.373) chronic (0.338, 0.373) 
+
+
+                    Atelectasis                                                                                & 0.774(0.783, 0.766) & 0.458 (0.477, 0.440) Cardiomegaly                                                                               & 0.768(0.777, 0.761) & 0.490 (0.507, 0.475) Consolidation                                                                              & 0.781(0.795, 0.767) & 0.153 (0.172, 0.137) Edema                                                                                      & 0.837(0.845, 0.829) & 0.476 (0.499, 0.456) Enlarged Cardiomediastinum                                                                 & 0.716(0.736, 0.694) & 0.087 (0.103, 0.075) Fracture                                                                                   & 0.667(0.701, 0.632) & 0.029 (0.036, 0.024) Lung Lesion                                                                                & 0.735(0.758, 0.710) & 0.086 (0.110, 0.069) Lung Opacity                                                                               & 0.723(0.732, 0.715) & 0.466 (0.482, 0.452) No Finding                                                                                 & 0.834(0.842, 0.827) & 0.667 (0.684, 0.653) Pleural Effusion                                                                           & 0.881(0.887, 0.876) & 0.740 (0.754, 0.727) Pleural Other                                                                              & 0.777(0.807, 0.745) & 0.053 (0.076, 0.040) Pneumonia                                                                                  & 0.687(0.702, 0.673) & 0.175 (0.195, 0.159) Pneumothorax                                                                               & 0.840(0.854, 0.825) & 0.315 (0.354, 0.285) Support Devices                                                                            & 0.876(0.881, 0.870) & 0.759 (0.773, 0.745) 
+
+
+val  9   best mean auc :0.778 mean auprc 0.354 
+
+
+                    CI AUROC (0.763, 0.793) CI AUPRC (0.338, 0.373) 
+
+
+                     AUROC accute 0.778 mixed 0.778 chronic 0.778
+
+
+                     AUROC accute CI (0.763, 0.793) mixed (0.763 , 0.793) chronic (0.763, 0.793)
+
+
+                     AUPRC accute  0.354 mixed 0.354 chronic 0.354 
+
+
+                     AUPRC accute CI  (0.338, 0.373) mixed (0.338,  0.373) chronic (0.338, 0.373) 
+
+
+                    

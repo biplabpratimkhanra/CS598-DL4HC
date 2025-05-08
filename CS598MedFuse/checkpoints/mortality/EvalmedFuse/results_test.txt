@@ -1,0 +1,22 @@
+Acute and unspecified renal failure                                                        & 0.867(0.881, 0.853) & 0.537 (0.576, 0.496) 
+
+
+lstm test  0   best mean auc :0.867 mean auprc 0.537 
+
+
+                    CI AUROC (0.853, 0.881) CI AUPRC (0.496, 0.576) 
+
+
+                     AUROC accute 0.867 mixed 0.867 chronic 0.867
+
+
+                     AUROC accute CI (0.853, 0.881) mixed (0.853 , 0.881) chronic (0.853, 0.881)
+
+
+                     AUPRC accute  0.537 mixed 0.537 chronic 0.537 
+
+
+                     AUPRC accute CI  (0.496, 0.576) mixed (0.496,  0.576) chronic (0.496, 0.576) 
+
+
+                    
